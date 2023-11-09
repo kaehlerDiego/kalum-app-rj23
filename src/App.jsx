@@ -8,8 +8,11 @@ const initCarrerasTecnicas = [
 export const App = () =>{
     return (
         <>
-            <h1>Carreras Tecnicas </h1>
+        <div className="container">
+        <h1>Carreras Tecnicas </h1>
             <CarreraTecnicaList carrerasTecnicas = {initCarrerasTecnicas}/> 
+        </div>
+            
         </>
     )
 }
